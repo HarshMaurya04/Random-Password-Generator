@@ -1,38 +1,158 @@
-.App {
-  text-align: center;
+* {
+  padding: 0;
+  margin: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-color: #a3d1c6;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container {
+  width: 100%;
+  height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.passBox {
+  min-width: 20%;
+  background-color: #3d8d7a;
+  color: #fbffe4;
+  padding: 1.5rem;
+  border-radius: 20px;
+  border: 2px solid #fbffe4;
+  box-shadow: 5px 5px 10px 3px #1b4d3e;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.heading {
+  text-align: center;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #fbffe4;
+}
+
+.inputField {
+  width: 100%;
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.inputField input {
+  width: 80%;
+  height: 35px;
+  font-size: medium;
+  outline: none;
+  border: 2px solid transparent;
+  background-color: #fbffe4;
+  color: #1b4d3e;
+  padding: 0px 10px;
+  border-radius: 10px;
+}
+
+.inputField input:hover {
+  border: 2px solid #1b4d3e;
+}
+
+.inputField button {
+  height: 38px;
+  border-radius: 10px;
+  padding: 0px 5px;
+  outline: none;
+  border: 2px solid transparent;
+  background-color: #b3d8a8;
+  color: #1b4d3e;
+  font-size: medium;
+  cursor: pointer;
+}
+
+.inputField button:hover {
+  border: 2px solid #1b4d3e;
+}
+
+.passLength {
+  width: 100%;
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+label {
+  font-size: large;
+  color: #fbffe4;
+}
+
+.passLength input {
+  width: 20%;
+  height: 30px;
+  font-size: medium;
+  outline: none;
+  border: 2px solid transparent;
+  background-color: #fbffe4;
+  color: #1b4d3e;
+  padding: 0px 10px;
+  border-radius: 10px;
+}
+
+.passLength input:hover {
+  border: 2px solid #1b4d3e;
+}
+
+.includeField {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.includeField input {
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #1b4d3e;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+}
+
+.includeField input:checked {
+  background-color: #b3d8a8;
+  border-color: #b3d8a8;
+}
+
+.includeField input:checked::after {
+  content: "✔";
+  font-size: 16px;
+  color: #1b4d3e;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.genBtn {
+  display: flex;
+  justify-content: center;
+}
+
+.genBtn button {
+  width: 100%;
+  height: 40px;
+  margin-top: 30px;
+  background-color: #b3d8a8;
+  color: #1b4d3e;
+  outline: none;
+  border: 2px solid transparent;
+  border-radius: 10px;
+  font-size: medium;
+  cursor: pointer;
+}
+
+.genBtn button:hover {
+  border: 2px solid #1b4d3e;
 }
