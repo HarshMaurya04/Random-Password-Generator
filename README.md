@@ -58,4 +58,4 @@ The app will run locally on http://localhost:3000.
 
 ## Screenshots
 
-![Image](https://github.com/user-attachments/assets/b33aac85-0d59-47d9-857e-1ec3e4cd0474)
+![Image](https://github.com/user-attachments/assets/b85f2a90-f5a6-47b3-9dfd-6f542c25c6b4)
