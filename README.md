@@ -24,3 +24,37 @@ It features:
 
 ```bash
 git clone https://github.com/HarshMaurya04/Random-Password-Generator.git
+```
+
+2. **Navigate to the project directory:**
+
+```bash
+cd random-password-generator
+```
+
+3. **Install dependencies:**
+
+```bash
+npm install
+```
+
+4. **Start the application:**
+
+```bash
+npm start
+```
+The app will run locally on http://localhost:3000.
+
+
+## 🧩 How to Use
+- Set the desired password length.
+
+- Toggle options to include uppercase letters, lowercase letters, numbers, and symbols.
+
+- Click Generate Password to create a new password.
+
+- Click Copy to copy the generated password to your clipboard.
+
+
+## Screenshot
+
