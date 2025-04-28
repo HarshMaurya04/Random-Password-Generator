@@ -56,5 +56,6 @@ The app will run locally on http://localhost:3000.
 - Click Copy to copy the generated password to your clipboard.
 
 
-## Screenshot
+## Screenshots
 
+![Image](https://github.com/user-attachments/assets/b33aac85-0d59-47d9-857e-1ec3e4cd0474)
