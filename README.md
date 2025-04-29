@@ -1,4 +1,4 @@
-# Random-Password-Generator
+# Random Password Generator
 
 A simple and responsive random password generator built with React. It allows users to customize the password by setting the desired length and choosing whether to include uppercase letters, lowercase letters, numbers, and symbols.
 
