@@ -29,7 +29,7 @@ git clone https://github.com/HarshMaurya04/Random-Password-Generator.git
 2. **Navigate to the project directory:**
 
 ```bash
-cd random-password-generator
+cd Random-Password-Generator
 ```
 
 3. **Install dependencies:**
